@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!--<ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbList"
+        android:layout_alignParentStart="true" />-->
+
+    <TextView
+        android:id="@android:id/text1"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+
+    <ImageView
+        android:id="@+id/button_popup"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/menu2"
+        android:contentDescription="delete"/>
+
+    <!--
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:scaleType="fitEnd"
+        android:src="@android:drawable/ic_input_add"
+        app:layout_anchor="@+id/listDemo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/dbList"
+        app:layout_anchorGravity="bottom|right|end"
+        app:backgroundTint="#FF64B2"
+        app:rippleColor="#FFF" />
+        -->
+
+</LinearLayout>
