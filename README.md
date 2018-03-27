@@ -1,4 +1,4 @@
-# SafEve
+# SafEve Monitor
 Android Application to monitor alerts from SafEve Devices
 
 SafEve is a safety device conceptualised during the National Innovation Drive Hackathon 2017, at PDPM Indian Institute of Information Technology, Design & Manufacturing, Jabalpur.
