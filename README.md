@@ -9,6 +9,8 @@ The Application maintains an SQLite user database consisting of name and phone-n
 
 The Application reads distress signals received as Short Messages (SMS) on the device from numbers aforementioned in the database and displays them in a timestamped listview on the monitor screen.
 
+For more on SafEve Device, visit https://github.com/ajwad-shaikh/SafeEve_Device
+
 Project by - Amanat Mishra & Ajwad Shaikh
 PDPM Indian Institute of Information Technology, Design and Manufacturing, Jabalpur.
 
